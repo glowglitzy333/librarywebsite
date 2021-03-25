@@ -1,0 +1,56 @@
+body{
+    margin:0px;
+}
+.header {
+    padding: 8px; /* some padding */
+    text-align: center; /* center the text */
+    background: #51dfc2; /* green background */
+    color: white; /* white text color */
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+  .header p {
+    margin-top: -18px;
+    font-size: 20px;}
+
+  .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: rgb(223, 190, 229); /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: rgb(194, 98, 202); /* Grey background color */
+    color: white; /* Black text color */
+  }
+  .banner {
+      width: 100%;
+      margin-bottom:-4px;
+  }
+  .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main {background-color: white;
+    padding: 20px;}
